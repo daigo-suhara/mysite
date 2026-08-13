@@ -8,3 +8,11 @@
   padding-bottom: 0.75rem;
   transform: translateY(-0.5rem);
 }
+
+#site-footer > nav > ul {
+  gap: 1rem;
+}
+
+#site-footer > nav li {
+  margin: 0;
+}
