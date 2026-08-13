@@ -1,0 +1,24 @@
+disabled = false
+locale = "ja-JP"
+label = "日本語"
+weight = 1
+title = "Daigo Suhara"
+
+[params]
+  displayName = "JA"
+  isoCode = "ja"
+  rtl = false
+  description = "関西大学大学院に所属する須原大護のポートフォリオサイト。"
+  copyright = "© { year } Daigo Suhara"
+  dateFormat = "2006年1月2日"
+
+[params.author]
+  name = "須原 大護"
+  image = "img/avatar.jpg"
+  headline = "Graduate Student / Software Engineer"
+  bio = "関西大学大学院でHuman-Robot Interactionの研究に取り組んでいます。"
+  links = [
+    { github = "https://github.com/daigo-suhara" },
+    { x-twitter = "https://x.com/daigo_suhara" },
+    { email = "mailto:suharadaigo@gmail.com" }
+  ]

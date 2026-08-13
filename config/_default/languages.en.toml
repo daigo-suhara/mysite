@@ -1,0 +1,25 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Daigo Suhara"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  # logo = "img/logo.png"
+  description = "The portfolio of Daigo Suhara, a graduate student at Kansai University."
+  copyright = "© { year } Daigo Suhara"
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Daigo Suhara"
+  image = "img/avatar.jpg"
+  headline = "Graduate Student / Software Engineer"
+  bio = "I conduct research on Human-Robot Interaction at Kansai University Graduate School."
+   links = [
+     { github = "https://github.com/daigo-suhara" },
+     { x-twitter = "https://x.com/daigo_suhara" },
+     { email = "mailto:suharadaigo@gmail.com" }
+   ]

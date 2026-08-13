@@ -1,0 +1,6 @@
+.git
+.github
+.hugo_cache
+.DS_Store
+public
+resources/_gen
