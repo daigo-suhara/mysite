@@ -5,6 +5,7 @@ showReadingTime: false
 showWordCount: false
 showAuthor: true
 showTableOfContents: true
+layoutBackgroundHeaderSpace: false
 ---
 
 ## Education
