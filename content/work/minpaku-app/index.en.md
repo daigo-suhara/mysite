@@ -1,5 +1,6 @@
 ---
 title: "Property Booking App"
+summary: "An accommodation booking app for Android and iOS built with Flutter and Firebase."
 date: 2025-10-01
 description: "A property booking app for Android and iOS."
 tags: ["Flutter", "Dart", "Firebase", "GitHub Actions"]

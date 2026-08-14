@@ -1,5 +1,6 @@
 ---
 title: "Building a MicroK8s Cluster with Mini PCs"
+summary: "A practical guide to installing MicroK8s across multiple mini PCs and forming a Kubernetes cluster."
 date: 2025-06-15
 lastmod: 2025-06-15
 tags: ["kubernetes", "microk8s"]

@@ -1,5 +1,6 @@
 ---
 title: "Navigate at the Speed of Thought with hop.nvim"
+summary: "An introduction to hop.nvim, a Neovim plugin for quickly jumping to any visible location in the editor."
 date: 2024-04-29
 lastmod: 2024-04-29
 tags: ["Vim", "neovim"]

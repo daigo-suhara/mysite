@@ -1,5 +1,6 @@
 ---
 title: "Official App for a Real Estate Company"
+summary: "An official app enhanced with user authentication, administrator chat, and a property management CMS."
 date: 2024-01-01
 description: "Feature development and operational improvements for a real estate and construction company's official app."
 showDate: false

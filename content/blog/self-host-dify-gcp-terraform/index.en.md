@@ -1,5 +1,6 @@
 ---
 title: "Production Self-Hosting of Dify on GCP with Terraform"
+summary: "Deploy a production-oriented self-hosted Dify environment on Google Cloud using Terraform."
 date: 2025-05-24
 lastmod: 2025-05-24
 tags: ["Terraform", "Dify"]

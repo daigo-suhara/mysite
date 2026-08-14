@@ -1,5 +1,6 @@
 ---
 title: "Building a Home Cloud with Three Mini PCs, a Raspberry Pi, MAAS, and OpenStack"
+summary: "Build a home cloud with three mini PCs and a Raspberry Pi, automating OS provisioning with MAAS and deploying OpenStack."
 date: 2025-06-29
 lastmod: 2025-06-29
 tags: ["Cloud", "RaspberryPi", "openstack", "サーバー", "MAAS"]

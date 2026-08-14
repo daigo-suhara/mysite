@@ -1,5 +1,6 @@
 ---
 title: "How to Create an All-in-One Live USB"
+summary: "Learn how to use Ventoy to boot multiple Linux distributions from a single USB drive."
 date: 2024-05-13
 lastmod: 2024-05-13
 tags: ["Linux", "Ubuntu"]

@@ -1,5 +1,6 @@
 ---
 title: "Neovim用のLatex環境を整えてみた"
+summary: "NeovimでLaTeX文書を執筆・コンパイルするための開発環境を構築する手順を紹介します。"
 date: 2024-04-24
 lastmod: 2024-09-17
 tags: ["Vim", "LaTeX", "neovim"]

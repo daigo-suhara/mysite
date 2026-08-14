@@ -1,5 +1,6 @@
 ---
 title: "[ROS2+MATLAB/Simulink]ラズパイカメラから人間の検出"
+summary: "Raspberry Piカメラの映像をROS 2で配信し、MATLAB/Simulinkで人を検出する構成を紹介します。"
 date: 2025-09-12
 lastmod: 2025-09-13
 tags: ["MATLAB", "RaspberryPi", "ROS2", "Simulink"]

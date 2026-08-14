@@ -59,7 +59,7 @@ mainSections = ["blog"]
   showTableOfContents = true
   showTaxonomies = false 
   showAuthorsBadges = false 
-  showWordCount = true
+  showWordCount = false
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 

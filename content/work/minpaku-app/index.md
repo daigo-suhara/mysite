@@ -1,5 +1,6 @@
 ---
 title: "宿泊予約アプリ"
+summary: "FlutterとFirebaseで開発した、Android・iOS対応の宿泊予約アプリ。"
 date: 2025-10-01
 description: "Android・iOSに対応した宿泊予約アプリ。"
 tags: ["Flutter", "Dart", "Firebase", "GitHub Actions"]

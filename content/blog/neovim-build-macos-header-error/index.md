@@ -1,5 +1,6 @@
 ---
 title: "macosでneovimのbuild時にヘッダファイルが見つからないエラー"
+summary: "macOSでNeovimをビルドする際にCoreServicesヘッダーが見つからないエラーの解決方法を紹介します。"
 date: 2026-03-14
 lastmod: 2026-03-14
 tags: ["neovim"]

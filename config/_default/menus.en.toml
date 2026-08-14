@@ -8,6 +8,11 @@
   pageRef = "work"
   weight = 20
 
+[[main]]
+  name = "Resume"
+  pageRef = "resume"
+  weight = 30
+
 [[footer]]
   identifier = "github"
   pre = "github"

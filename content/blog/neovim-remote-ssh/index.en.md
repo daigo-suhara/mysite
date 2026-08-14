@@ -1,5 +1,6 @@
 ---
 title: "Remote SSH in Neovim, Just Like VS Code"
+summary: "Use remote-nvim.nvim to edit files on SSH hosts and inside containers directly from Neovim."
 date: 2024-10-16
 lastmod: 2024-10-16
 tags: ["SSH", "Docker", "neovim", "devcontainer", "RemoteSSH"]

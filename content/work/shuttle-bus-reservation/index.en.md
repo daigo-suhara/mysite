@@ -1,5 +1,6 @@
 ---
 title: "Shuttle Bus Reservation System"
+summary: "A shuttle bus reservation system for Kansai University's Takatsuki Campus with assigned seating and student ID authentication."
 date: 2024-04-01
 description: "An assigned-seat reservation system for the shuttle bus operated at Kansai University's Takatsuki Campus."
 tags: ["Docker", "Nginx", "Python", "Flask", "Jinja2"]

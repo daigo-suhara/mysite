@@ -1,5 +1,6 @@
 ---
 title: "ミニPCでmicrok8sクラスタ"
+summary: "複数のミニPCへMicroK8sを導入し、Kubernetesクラスタを構築する手順をまとめます。"
 date: 2025-06-15
 lastmod: 2025-06-15
 tags: ["kubernetes", "microk8s"]

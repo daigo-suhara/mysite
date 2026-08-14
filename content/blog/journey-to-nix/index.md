@@ -1,5 +1,6 @@
 ---
 title: "[環境構築沼からの解放]私がnixに出会うまでの旅路"
+summary: "apt、Homebrew、Dockerを経て、再現可能な開発環境を実現するNixへたどり着いた過程を振り返ります。"
 date: 2026-04-10
 lastmod: 2026-04-10
 tags: ["環境構築", "dotfiles", "nix"]

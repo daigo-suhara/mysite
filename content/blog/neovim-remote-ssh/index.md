@@ -1,5 +1,6 @@
 ---
 title: "NeovimでVSCodeみたいにRemoteSSHする方法を見つけた"
+summary: "remote-nvim.nvimを使い、NeovimからSSH先やコンテナ内のファイルを直接編集する方法を紹介します。"
 date: 2024-10-16
 lastmod: 2024-10-16
 tags: ["SSH", "Docker", "neovim", "devcontainer", "RemoteSSH"]
