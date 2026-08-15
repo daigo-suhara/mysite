@@ -29,13 +29,13 @@ An administrative interface also allows staff to review and manage reservation a
 
 I built a custom authentication device incorporating an NFC reader, a Raspberry Pi, and a display. Students can verify their reservations by tapping their ID cards, making the boarding process more efficient.
 
-![Custom-built student ID card reader](student-id-card-reader.jpg "Custom-built student ID card reader")
+![Custom-built student ID card reader](student-id-card-reader.webp "Custom-built student ID card reader")
 
 ## Development
 
 I built the on-premises server infrastructure for the system and performed the on-site setup and validation.
 
-![Working overnight at the university while building the on-premises server infrastructure](overnight-server-setup.jpg "Working overnight at the university while building the on-premises server infrastructure")
+![Working overnight at the university while building the on-premises server infrastructure](overnight-server-setup.webp "Working overnight at the university while building the on-premises server infrastructure")
 
 ## Technology
 

@@ -15,7 +15,7 @@ title = "Daigo Suhara"
 
 [params.author]
   name = "Daigo Suhara"
-  image = "img/avatar.jpg"
+  image = "img/avatar.webp"
   headline = "Graduate Student / Software Engineer"
   bio = "I conduct research on Human-Robot Interaction at Kansai University Graduate School."
    links = [

@@ -14,7 +14,7 @@ title = "Daigo Suhara"
 
 [params.author]
   name = "須原 大護"
-  image = "img/avatar.jpg"
+  image = "img/avatar.webp"
   headline = "Graduate Student / Software Engineer"
   bio = "関西大学大学院でHuman-Robot Interactionの研究に取り組んでいます。"
   links = [
