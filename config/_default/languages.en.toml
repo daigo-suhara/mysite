@@ -5,12 +5,12 @@ weight = 1
 title = "Daigo Suhara"
 
 [params]
-  displayName = "EN"
+  displayName = "English"
   isoCode = "en"
   rtl = false
   # logo = "img/logo.png"
-  description = "The portfolio of Daigo Suhara, a graduate student at Kansai University."
-  copyright = "© { year } Daigo Suhara"
+  description = "The portfolio of Daigo Suhara."
+  copyright = "© Daigo Suhara"
   dateFormat = "2 January 2006"
 
 [params.author]

@@ -12,21 +12,3 @@
   name = "Resume"
   pageRef = "resume"
   weight = 30
-
-[[footer]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/daigo-suhara"
-  weight = 10
-
-[[footer]]
-  identifier = "x-twitter"
-  pre = "x-twitter"
-  url = "https://x.com/daigo_suhara"
-  weight = 20
-
-[[footer]]
-  identifier = "email"
-  pre = "email"
-  url = "mailto:suharadaigo@gmail.com"
-  weight = 30

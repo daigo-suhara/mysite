@@ -4,6 +4,8 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: true
+showPagination: false
+sharingLinks: false
 showTableOfContents: true
 layoutBackgroundHeaderSpace: false
 ---
