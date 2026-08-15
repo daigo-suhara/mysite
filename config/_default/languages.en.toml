@@ -1,7 +1,7 @@
 disabled = false
 locale = "en"
 label = "English"
-weight = 1
+weight = 2
 title = "Daigo Suhara"
 
 [params]

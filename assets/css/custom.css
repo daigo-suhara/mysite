@@ -1,3 +1,9 @@
 .active {
   text-decoration-skip-ink: none;
 }
+
+@media (max-width: 640px) {
+  #main-content table {
+    font-size: 0.875rem;
+  }
+}
