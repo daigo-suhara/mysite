@@ -15,7 +15,8 @@ enableSearch = true
 enableCodeCopy = true
 
 mainSections = ["blog"]
-defaultBackgroundImage = "img/rainy-night.webp"
+defaultBackgroundImage = "img/rain-night.webp"
+imagePosition = "center center"
 # robots = ""
 
 [header]
@@ -30,14 +31,14 @@ defaultBackgroundImage = "img/rainy-night.webp"
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/rainy-night.webp" # used in: hero, card, and background
+  homepageImage = "img/rain-night.webp" # used in: hero, card, and background
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/blog/"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+  layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
   showDate = true
@@ -62,6 +63,7 @@ defaultBackgroundImage = "img/rainy-night.webp"
   showAuthorsBadges = false
   showWordCount = false
   showSummary = true
+  layoutBackgroundBlur = false
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
@@ -75,6 +77,7 @@ defaultBackgroundImage = "img/rainy-night.webp"
   groupByYear = true
   cardView = true
   cardViewScreenWidth = false
+  layoutBackgroundBlur = false
 
 [sitemap]
   excludedKinds = []

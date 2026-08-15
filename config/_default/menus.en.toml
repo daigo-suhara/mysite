@@ -1,5 +1,5 @@
 [[main]]
-  name = "Blog"
+  name = "Posts"
   pre = "pencil"
   pageRef = "blog"
   weight = 10
