@@ -3,6 +3,8 @@ title: "Site Policy"
 description: "Policies for using Daigo Suhara's website."
 date: 2026-08-15
 showDate: false
+showHero: true
+layoutBackgroundHeaderSpace: false
 showPagination: false
 sharingLinks: false
 ---

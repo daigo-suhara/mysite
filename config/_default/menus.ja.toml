@@ -1,14 +1,17 @@
 [[main]]
   name = "Blog"
+  pre = "pencil"
   pageRef = "blog"
   weight = 10
 
 [[main]]
   name = "Work"
+  pre = "code"
   pageRef = "work"
   weight = 20
 
 [[main]]
   name = "Resume"
+  pre = "graduation-cap"
   pageRef = "resume"
   weight = 30

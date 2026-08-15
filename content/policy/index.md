@@ -3,6 +3,8 @@ title: "サイトポリシー"
 description: "Daigo Suharaのウェブサイトをご利用いただく際の方針です。"
 date: 2026-08-15
 showDate: false
+showHero: true
+layoutBackgroundHeaderSpace: false
 showPagination: false
 sharingLinks: false
 ---

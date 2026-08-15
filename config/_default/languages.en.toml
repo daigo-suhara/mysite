@@ -15,8 +15,8 @@ title = "Daigo Suhara"
 
 [params.author]
   name = "Daigo Suhara"
+  headline = "Graduate Student"
   image = "img/avatar.webp"
-  headline = "Graduate Student / Software Engineer"
   bio = "I conduct research on Human-Robot Interaction at Kansai University Graduate School."
    links = [
      { github = "https://github.com/daigo-suhara" },
