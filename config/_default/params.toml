@@ -38,7 +38,7 @@ imagePosition = "center center"
   showMoreLinkDest = "/blog/"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
+  layoutBackgroundBlur = true
 
 [article]
   showDate = true
@@ -63,7 +63,7 @@ imagePosition = "center center"
   showAuthorsBadges = false
   showWordCount = false
   showSummary = true
-  layoutBackgroundBlur = false
+  layoutBackgroundBlur = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
@@ -77,7 +77,7 @@ imagePosition = "center center"
   groupByYear = true
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = false
+  layoutBackgroundBlur = true
 
 [sitemap]
   excludedKinds = []
