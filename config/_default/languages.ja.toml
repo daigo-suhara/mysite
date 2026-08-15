@@ -9,7 +9,7 @@ title = "Daigo Suhara"
   isoCode = "ja"
   rtl = false
   description = "須原大護のポートフォリオサイト。"
-  copyright = "© Daigo Suhara"
+  copyright = "© { year } Daigo Suhara"
   dateFormat = "2006年1月2日"
 
 [params.author]

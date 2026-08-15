@@ -10,7 +10,7 @@ title = "Daigo Suhara"
   rtl = false
   # logo = "img/logo.png"
   description = "The portfolio of Daigo Suhara."
-  copyright = "© Daigo Suhara"
+  copyright = "© { year } Daigo Suhara"
   dateFormat = "2 January 2006"
 
 [params.author]
