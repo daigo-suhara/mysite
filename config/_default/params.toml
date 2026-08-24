@@ -75,7 +75,7 @@ imagePosition = "center center"
   showTableOfContents = false
   showCards = true
   groupByYear = true
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = true
 
