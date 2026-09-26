@@ -11,9 +11,9 @@ showWordCount: false
 
 I am a maintainer of [Metal3.io](https://metal3.io/), an open-source project for managing bare-metal hosts with Kubernetes.
 
-## About Metal3.io
+## About Metal3
 
-Metal3.io manages physical servers through Kubernetes APIs, from host enrollment and OS image provisioning to Kubernetes cluster deployment and upgrades. Metal3.io itself runs on Kubernetes and uses Kubernetes resources and APIs as its interface.
+Metal3 manages physical servers through Kubernetes APIs, from host enrollment and OS image provisioning to Kubernetes cluster deployment and upgrades. Metal3.io itself runs on Kubernetes and uses Kubernetes resources and APIs as its interface.
 
 It also provides the bare-metal implementation for Cluster API, which offers infrastructure-agnostic Kubernetes cluster lifecycle management.
 
@@ -32,5 +32,8 @@ I review changes and dependencies, prepare release notes, check test results, up
 - [OCI image URLs without checksum](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3522)
 - [Fix Linux detection for kubectl installation in Leap CI](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3723)
 - [Run zizmor for release branch PRs](https://github.com/metal3-io/baremetal-operator/pull/3644)
+- [[release-0.14]Run zizmor for release branch PRs](https://github.com/metal3-io/baremetal-operator/pull/3675)
+- [Bump OpenTelemetry to v1.45.0](https://github.com/metal3-io/ip-address-manager/pull/1636)
 - [CAPM3 v1.13.5 release](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3760)
 - [IPAM v1.13.6 release](https://github.com/metal3-io/ip-address-manager/pull/1642)
+- [IPAM v1.14.1 release](https://github.com/metal3-io/ip-address-manager/pull/1639)

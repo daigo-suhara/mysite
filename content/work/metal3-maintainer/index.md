@@ -11,9 +11,9 @@ showWordCount: false
 
 Kubernetesでベアメタルマシンを管理するOSS、[Metal3.io](https://metal3.io/)のメンテナとして活動しています。
 
-## Metal3.ioとは
+## Metal3とは
 
-Metal3.ioは、物理サーバーの登録やOSイメージのプロビジョニングから、Kubernetesクラスターの構築・更新までをKubernetes APIで管理するOSSです。Metal3.io自体もKubernetes上で動作し、KubernetesのリソースとAPIをインターフェースとして利用します。
+Metal3は、物理サーバーの登録やOSイメージのプロビジョニングから、Kubernetesクラスターの構築・更新までをKubernetes APIで管理するOSSです。Metal3.io自体もKubernetes上で動作し、KubernetesのリソースとAPIをインターフェースとして利用します。
 
 また、インフラストラクチャーに依存しないKubernetesクラスターのライフサイクル管理を提供するCluster APIに、ベアメタル環境の実装を提供しています。
 
@@ -21,7 +21,7 @@ Metal3.ioは、物理サーバーの登録やOSイメージのプロビジョニ
 
 主なコンポーネントには、Ironic APIをKubernetesネイティブなAPIとして公開するBare Metal Operator（BMO）、Cluster APIと統合するCluster API Provider Metal3（CAPM3）、IPアドレスとプールを管理するIP Address Manager（IPAM）、Kubernetes上へIronicをデプロイするIronic Standalone Operator（IrSO）があります。
 
-## Work
+## 活動内容
 
 リリースチームの一員として、各コンポーネントのリリース作業やパッチ修正などを行っています。
 
@@ -32,5 +32,8 @@ Metal3.ioは、物理サーバーの登録やOSイメージのプロビジョニ
 - [OCI image URLs without checksum](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3522)
 - [Fix Linux detection for kubectl installation in Leap CI](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3723)
 - [Run zizmor for release branch PRs](https://github.com/metal3-io/baremetal-operator/pull/3644)
+- [[release-0.14]Run zizmor for release branch PRs](https://github.com/metal3-io/baremetal-operator/pull/3675)
+- [Bump OpenTelemetry to v1.45.0](https://github.com/metal3-io/ip-address-manager/pull/1636)
 - [CAPM3 v1.13.5 release](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3760)
 - [IPAM v1.13.6 release](https://github.com/metal3-io/ip-address-manager/pull/1642)
+- [IPAM v1.14.1 release](https://github.com/metal3-io/ip-address-manager/pull/1639)
