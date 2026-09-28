@@ -36,6 +36,7 @@
   <div class="flex w-full flex-col items-center gap-4">
     <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-neutral-500 dark:text-neutral-400" aria-label="{{ if eq .Language.Lang "ja" }}フッターナビゲーション{{ else }}Footer navigation{{ end }}">
       <a class="hover:text-primary-500" href="{{ "policy/" | relLangURL }}">{{ if eq .Language.Lang "ja" }}サイトポリシー{{ else }}Site Policy{{ end }}</a>
+      <a class="hover:text-primary-500" href="{{ "site-map/" | relLangURL }}">{{ if eq .Language.Lang "ja" }}サイトマップ{{ else }}Sitemap{{ end }}</a>
       <a class="hover:text-primary-500" href="mailto:suharadaigo@gmail.com">{{ if eq .Language.Lang "ja" }}お問い合わせ{{ else }}Contact{{ end }}</a>
     </nav>
 
