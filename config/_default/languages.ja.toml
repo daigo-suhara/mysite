@@ -15,7 +15,7 @@ title = "Daigo Suhara"
 [params.author]
   name = "須原 大護"
   image = "img/gravatar.webp"
-  bio = "関西大学大学院でHuman-Robot Interactionの研究に取り組んでいます。"
+  bio = "大学院生。Metal3.ioのメンテナー。"
   links = [
     { github = "https://github.com/daigo-suhara" },
     { x-twitter = "https://x.com/daigo_suhara" },
