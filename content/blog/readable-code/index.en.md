@@ -1,6 +1,6 @@
 ---
 title: "The Key Lessons from The Art of Readable Code"
-summary: "principles for writing code that is easier to understand."
+summary: "A collection of tips for writing readable code."
 date: 2026-09-27
 lastmod: 2026-09-27
 tags: ["book"]

@@ -1,4 +1,4 @@
 ---
 ---
 
-{{< typeit speed="55" >}}This site is served from a Kubernetes cluster running on my home server.{{< /typeit >}}
+{{< typeit speed="55" >}}This site is served from my home server.{{< /typeit >}}

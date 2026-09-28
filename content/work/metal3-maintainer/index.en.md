@@ -19,7 +19,7 @@ Metal3.io itself runs on Kubernetes and uses Kubernetes resources and APIs as it
 The project was started by Red Hat in 2019, with Ericsson joining later that year.
 It entered the CNCF Sandbox in September 2020 and advanced to a [CNCF Incubating Project](https://www.cncf.io/blog/2025/08/27/metal3-io-becomes-a-cncf-incubating-project/) in August 2025.
 
-## Work
+## Activities
 
 As a member of the release team, I work on component releases and patch fixes.
 
