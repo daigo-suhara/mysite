@@ -15,7 +15,7 @@ enableSearch = true
 enableCodeCopy = true
 
 mainSections = ["blog"]
-defaultBackgroundImage = "img/rain-night.webp"
+defaultBackgroundImage = "img/site-background.webp"
 imagePosition = "center center"
 thumbnailAspectRatio = "1.9048"
 # robots = ""
@@ -32,7 +32,7 @@ thumbnailAspectRatio = "1.9048"
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/rain-night.webp" # used in: hero, card, and background
+  homepageImage = "img/site-background.webp" # used in: hero, card, and background
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
