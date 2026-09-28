@@ -1,5 +1,5 @@
 ---
-title: "須原大護 | Daigo Suhara"
+title: "pochizo"
 description: "須原大護（Daigo Suhara）のポートフォリオサイト。"
 ---
 
