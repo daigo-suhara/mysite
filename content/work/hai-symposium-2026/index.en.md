@@ -7,6 +7,7 @@ tags: ["HAI", "Human-Robot Interaction", "Robotics"]
 showDate: false
 showReadingTime: false
 showWordCount: false
+featureimage: "feature.webp"
 ---
 
 I presented this work in oral session at HAI Symposium 2026.

@@ -7,6 +7,7 @@ tags: ["HAI", "Human-Robot Interaction", "Robotics"]
 showDate: false
 showReadingTime: false
 showWordCount: false
+featureimage: "feature.webp"
 ---
 
 HAIシンポジウム2026の口頭発表で研究を発表しました。
