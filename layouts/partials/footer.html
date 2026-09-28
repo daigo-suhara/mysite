@@ -33,9 +33,14 @@
     {{ end }}
   {{ end }}
 
-  <div class="flex w-full flex-row items-center justify-between gap-2">
+  <div class="flex w-full flex-col items-center gap-4">
+    <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-neutral-500 dark:text-neutral-400" aria-label="{{ if eq .Language.Lang "ja" }}フッターナビゲーション{{ else }}Footer navigation{{ end }}">
+      <a class="hover:text-primary-500" href="{{ "policy/" | relLangURL }}">{{ if eq .Language.Lang "ja" }}サイトポリシー{{ else }}Site Policy{{ end }}</a>
+      <a class="hover:text-primary-500" href="mailto:suharadaigo@gmail.com">{{ if eq .Language.Lang "ja" }}お問い合わせ{{ else }}Contact{{ end }}</a>
+    </nav>
+
     {{ if .Site.Params.footer.showCopyright | default true }}
-      <p class="text-start text-sm text-neutral-500 dark:text-neutral-400">
+      <p class="text-center text-sm text-neutral-500 dark:text-neutral-400">
         {{- with replace .Site.Params.copyright "{ year }" now.Year }}
           {{ . | markdownify }}
         {{- else }}
@@ -45,13 +50,6 @@
         {{- end }}
       </p>
     {{ end }}
-
-    <nav class="flex items-center justify-end gap-4 text-end text-sm text-neutral-500 dark:text-neutral-400" aria-label="{{ if eq .Language.Lang "ja" }}フッター{{ else }}Footer{{ end }}">
-      <a class="inline-flex items-center hover:text-primary-500" href="{{ "policy/" | relLangURL }}">
-        <span class="me-1 inline-flex" aria-hidden="true">{{ partial "icon.html" "circle-info" }}</span>
-        {{ if eq .Language.Lang "ja" }}サイトポリシー{{ else }}Site Policy{{ end }}
-      </a>
-    </nav>
   </div>
 
   {{ if not .Site.Params.disableImageZoom | default true }}

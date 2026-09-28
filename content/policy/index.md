@@ -3,6 +3,7 @@ title: "サイトポリシー"
 description: "当サイトをご利用いただく際の方針です。"
 date: 2026-08-15
 showDate: true
+showAuthor: false
 layoutBackgroundHeaderSpace: false
 showPagination: false
 sharingLinks: false

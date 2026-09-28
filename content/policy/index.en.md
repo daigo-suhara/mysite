@@ -3,6 +3,7 @@ title: "Site Policy"
 description: "Policies for using this website."
 date: 2026-08-15
 showDate: false
+showAuthor: false
 layoutBackgroundHeaderSpace: false
 showPagination: false
 sharingLinks: false
