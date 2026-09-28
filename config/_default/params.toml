@@ -17,6 +17,7 @@ enableCodeCopy = true
 mainSections = ["blog"]
 defaultBackgroundImage = "img/rain-night.webp"
 imagePosition = "center center"
+thumbnailAspectRatio = "1.9048"
 # robots = ""
 
 [header]
@@ -26,7 +27,7 @@ imagePosition = "center center"
   showMenu = true
   showCopyright = true
   showThemeAttribution = false
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = false
 
 [homepage]
@@ -71,7 +72,7 @@ imagePosition = "center center"
   heroStyle = "background" # valid options: basic, big, background
   layoutBackgroundHeaderSpace = false
   showBreadcrumbs = false
-  showSummary = true
+  showSummary = false
   showTableOfContents = false
   showCards = true
   groupByYear = true

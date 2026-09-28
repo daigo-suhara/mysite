@@ -5,7 +5,6 @@ date: 2025-06-25
 lastmod: 2025-06-25
 tags: ["Chrome"]
 draft: false
-showSummary: true
 ---
 
 Type thisisunsafe on the warning page

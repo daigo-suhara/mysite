@@ -1,20 +1,19 @@
 ---
 title: "『リーダブルコード』の要点まとめ"
-summary: "読みやすいコードを書くための考え方を、14のポイントに絞って紹介します。"
+summary: "読みやすいコードを書くためのTipsをまとめています"
 date: 2026-09-27
 lastmod: 2026-09-27
 tags: ["book"]
 draft: false
-showSummary: true
 ---
 
 ## はじめに
 
 『リーダブルコード』で紹介されている、読みやすいコードを書くための考え方をまとめます。
 
-本書を貫く原則は、**「他の人が最短時間で理解できるコードを書く」**ことです。コードの短さよりも、理解にかかる時間を短くすることを優先します。
+<a href="https://link.amazon/B0dsPGOhO"><img src="https://images-na.ssl-images-amazon.com/images/P/4873115655.09.LZZZZZZZ.jpg" alt="『リーダブルコード』の表紙" width="180" loading="lazy"></a>
 
-[『リーダブルコード』をAmazonで見る](https://www.amazon.co.jp/dp/4873115655?tag=pochizo-22)
+[『リーダブルコード』をAmazonで見る](https://link.amazon/B0dsPGOhO)
 
 ## 1. 理解しやすいコード
 

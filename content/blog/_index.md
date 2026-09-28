@@ -13,6 +13,7 @@ showTableOfContents : true
 showTaxonomies : false 
 showWordCount : false
 showSummary : false
+cardView : true
 sharingLinks : false
 
 ---

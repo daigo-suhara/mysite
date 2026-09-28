@@ -5,7 +5,6 @@ date: 2026-04-19
 lastmod: 2026-04-22
 tags: ["サーバー", "tx1320m3"]
 draft: false
-showSummary: true
 ---
 
 ## Introduction

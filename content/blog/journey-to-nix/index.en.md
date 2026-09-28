@@ -5,7 +5,6 @@ date: 2026-04-10
 lastmod: 2026-04-10
 tags: ["環境構築", "dotfiles", "nix"]
 draft: false
-showSummary: true
 ---
 
 ## What is nix?

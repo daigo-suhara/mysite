@@ -13,13 +13,11 @@ I am a maintainer of [Metal3.io](https://metal3.io/), an open-source project for
 
 ## About Metal3
 
-Metal3 manages physical servers through Kubernetes APIs, from host enrollment and OS image provisioning to Kubernetes cluster deployment and upgrades. Metal3.io itself runs on Kubernetes and uses Kubernetes resources and APIs as its interface.
+Metal3 manages physical servers through Kubernetes APIs, from host enrollment and OS image provisioning to Kubernetes cluster deployment and upgrades.
+Metal3.io itself runs on Kubernetes and uses Kubernetes resources and APIs as its interface.
 
-It also provides the bare-metal implementation for Cluster API, which offers infrastructure-agnostic Kubernetes cluster lifecycle management.
-
-The project was started by Red Hat in 2019, with Ericsson joining later that year. It entered the CNCF Sandbox in September 2020 and advanced to a [CNCF Incubating Project](https://www.cncf.io/blog/2025/08/27/metal3-io-becomes-a-cncf-incubating-project/) in August 2025.
-
-Its main components include Bare Metal Operator (BMO), which exposes parts of the Ironic API as Kubernetes-native APIs; Cluster API Provider Metal3 (CAPM3), which integrates with Cluster API; IP Address Manager (IPAM), which manages addresses and pools; and Ironic Standalone Operator (IrSO), which deploys Ironic on Kubernetes.
+The project was started by Red Hat in 2019, with Ericsson joining later that year.
+It entered the CNCF Sandbox in September 2020 and advanced to a [CNCF Incubating Project](https://www.cncf.io/blog/2025/08/27/metal3-io-becomes-a-cncf-incubating-project/) in August 2025.
 
 ## Work
 

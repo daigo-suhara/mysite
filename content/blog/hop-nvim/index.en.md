@@ -5,7 +5,6 @@ date: 2024-04-29
 lastmod: 2024-04-29
 tags: ["Vim", "neovim"]
 draft: false
-showSummary: true
 ---
 
 ## Introduction

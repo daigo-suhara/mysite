@@ -5,7 +5,6 @@ date: 2026-03-14
 lastmod: 2026-03-14
 tags: ["neovim"]
 draft: false
-showSummary: true
 ---
 
 ## Introduction

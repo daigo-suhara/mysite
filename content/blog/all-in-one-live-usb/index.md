@@ -5,7 +5,6 @@ date: 2024-05-13
 lastmod: 2024-05-13
 tags: ["Linux", "Ubuntu"]
 draft: false
-showSummary: true
 ---
 
 ## はじめに

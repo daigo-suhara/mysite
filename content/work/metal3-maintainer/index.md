@@ -13,13 +13,11 @@ Kubernetesでベアメタルマシンを管理するOSS、[Metal3.io](https://me
 
 ## Metal3とは
 
-Metal3は、物理サーバーの登録やOSイメージのプロビジョニングから、Kubernetesクラスターの構築・更新までをKubernetes APIで管理するOSSです。Metal3.io自体もKubernetes上で動作し、KubernetesのリソースとAPIをインターフェースとして利用します。
+Metal3は、物理サーバーの登録やOSイメージのプロビジョニングから、Kubernetesクラスターの構築・更新までをKubernetes APIで管理するOSSです。
+Metal3.io自体もKubernetes上で動作し、KubernetesのリソースとAPIをインターフェースとして利用します。
 
-また、インフラストラクチャーに依存しないKubernetesクラスターのライフサイクル管理を提供するCluster APIに、ベアメタル環境の実装を提供しています。
-
-2019年にRed Hatによって開始され、同年にEricssonが参加しました。2020年9月にCNCF Sandboxへ入り、2025年8月に[CNCF Incubating Project](https://www.cncf.io/blog/2025/08/27/metal3-io-becomes-a-cncf-incubating-project/)へ昇格しました。
-
-主なコンポーネントには、Ironic APIをKubernetesネイティブなAPIとして公開するBare Metal Operator（BMO）、Cluster APIと統合するCluster API Provider Metal3（CAPM3）、IPアドレスとプールを管理するIP Address Manager（IPAM）、Kubernetes上へIronicをデプロイするIronic Standalone Operator（IrSO）があります。
+2019年にRed Hatによって開始され、同年にEricssonが参加しました。
+2020年9月にCNCF Sandboxへ入り、2025年8月に[CNCF Incubating Project](https://www.cncf.io/blog/2025/08/27/metal3-io-becomes-a-cncf-incubating-project/)へ昇格しました。
 
 ## 活動内容
 

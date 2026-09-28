@@ -1,20 +1,19 @@
 ---
 title: "The Key Lessons from The Art of Readable Code"
-summary: "Fourteen practical principles for writing code that is easier to understand."
+summary: "principles for writing code that is easier to understand."
 date: 2026-09-27
 lastmod: 2026-09-27
 tags: ["book"]
 draft: false
-showSummary: true
 ---
 
 ## Introduction
 
 This article summarizes the key lessons from *The Art of Readable Code*.
 
-The book's central principle is simple: **write code that other people can understand in the shortest possible time**. Fewer lines are helpful only when they also make the code easier to understand.
+<a href="https://link.amazon/B0g3P3Mik"><img src="https://images-na.ssl-images-amazon.com/images/P/0596802293.01.LZZZZZZZ.jpg" alt="Cover of The Art of Readable Code" width="180" loading="lazy"></a>
 
-[View *The Art of Readable Code* on Amazon Japan](https://www.amazon.co.jp/dp/4873115655?tag=pochizo-22)
+[View *The Art of Readable Code* on Amazon Japan](https://link.amazon/B0g3P3Mik)
 
 ## 1. Write Code That Is Easy to Understand
 
@@ -110,7 +109,3 @@ More code means more maintenance. To avoid adding unnecessary code:
 
 - Write failure messages that make the cause easy to identify
 - Code designed for easy testing tends to have clearer responsibilities
-
-## Conclusion
-
-Readable code is less about clever techniques and more about consideration for the reader. Clear names, a simple structure, and useful comments reduce the time people spend trying to understand the code.
