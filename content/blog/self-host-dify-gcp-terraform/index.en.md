@@ -4,6 +4,7 @@ summary: "Deploy a production-oriented self-hosted Dify environment on Google Cl
 date: 2025-05-24
 lastmod: 2025-05-24
 tags: ["Terraform", "Dify"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

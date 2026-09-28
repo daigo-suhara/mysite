@@ -4,6 +4,7 @@ summary: "Build a home cloud with three mini PCs and a Raspberry Pi, automating 
 date: 2025-06-29
 lastmod: 2025-06-29
 tags: ["Cloud", "RaspberryPi", "openstack", "サーバー", "MAAS"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

@@ -4,6 +4,7 @@ summary: "Learn how to use Ventoy to boot multiple Linux distributions from a si
 date: 2024-05-13
 lastmod: 2024-05-13
 tags: ["Linux", "Ubuntu"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

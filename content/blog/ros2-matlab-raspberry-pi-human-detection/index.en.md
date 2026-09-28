@@ -4,6 +4,7 @@ summary: "Stream Raspberry Pi camera data through ROS 2 and detect people with M
 date: 2025-09-12
 lastmod: 2025-09-13
 tags: ["MATLAB", "RaspberryPi", "ROS2", "Simulink"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

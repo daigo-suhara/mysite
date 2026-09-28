@@ -4,6 +4,7 @@ summary: "How to fix the missing CoreServices header error encountered when buil
 date: 2026-03-14
 lastmod: 2026-03-14
 tags: ["neovim"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

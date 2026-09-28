@@ -8,6 +8,10 @@
   background-size: 32px 32px;
 }
 
+.thumbnail_card {
+  min-width: 0;
+}
+
 @media (max-width: 640px) {
   #main-content table {
     font-size: 0.875rem;

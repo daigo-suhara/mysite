@@ -4,6 +4,7 @@ summary: "An introduction to building a public cloud on Kubernetes with bare-met
 date: 2026-06-14
 lastmod: 2026-06-16
 tags: ["AWS", "Azure", "自宅サーバー", "GoogleCloud"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

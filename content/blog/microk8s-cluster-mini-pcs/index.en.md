@@ -4,6 +4,7 @@ summary: "A practical guide to installing MicroK8s across multiple mini PCs and 
 date: 2025-06-15
 lastmod: 2025-06-15
 tags: ["kubernetes", "microk8s"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

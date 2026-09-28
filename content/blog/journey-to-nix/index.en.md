@@ -4,6 +4,7 @@ summary: "A journey through apt, Homebrew, and Docker that led to Nix for reprod
 date: 2026-04-10
 lastmod: 2026-04-10
 tags: ["環境構築", "dotfiles", "nix"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

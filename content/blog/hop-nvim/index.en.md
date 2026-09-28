@@ -4,6 +4,7 @@ summary: "An introduction to hop.nvim, a Neovim plugin for quickly jumping to an
 date: 2024-04-29
 lastmod: 2024-04-29
 tags: ["Vim", "neovim"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

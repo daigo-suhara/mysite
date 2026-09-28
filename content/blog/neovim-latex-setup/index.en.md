@@ -4,6 +4,7 @@ summary: "A guide to setting up Neovim for writing and compiling LaTeX documents
 date: 2024-04-24
 lastmod: 2024-09-17
 tags: ["Vim", "LaTeX", "neovim"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

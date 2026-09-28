@@ -4,6 +4,7 @@ summary: "A collection of tips for writing readable code."
 date: 2026-09-27
 lastmod: 2026-09-27
 tags: ["book"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 

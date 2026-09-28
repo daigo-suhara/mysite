@@ -4,6 +4,7 @@ summary: "How to resolve a disk detection issue when installing Proxmox on a Fuj
 date: 2026-04-19
 lastmod: 2026-04-22
 tags: ["サーバー", "tx1320m3"]
+featureimage: "feature.en.webp"
 draft: false
 ---
 
