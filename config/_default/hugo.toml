@@ -3,7 +3,7 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://daigo-suhara.com/"
+baseURL = "https://www.pochizo.com/"
 defaultContentLanguage = "ja"
 
 enableRobotsTXT = true

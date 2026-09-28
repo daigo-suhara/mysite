@@ -2,7 +2,7 @@ FROM ghcr.io/gohugoio/hugo:v0.164.0 AS build
 
 WORKDIR /src
 COPY . .
-RUN hugo --minify --baseURL https://daigo-suhara.com/
+RUN hugo --minify --baseURL https://www.pochizo.com/
 
 FROM nginxinc/nginx-unprivileged:1.29-alpine
 
