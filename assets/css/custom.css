@@ -33,6 +33,10 @@
   font-display: swap;
 }
 
+#main-content > article.prose h1 {
+  font-weight: 700;
+}
+
 .thumbnail_card {
   min-width: 0;
 }
