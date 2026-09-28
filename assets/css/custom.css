@@ -2,6 +2,12 @@
   text-decoration-skip-ink: none;
 }
 
+.article-grid-background {
+  background-image: linear-gradient(#a3a3a30f 1px, transparent 1px),
+    linear-gradient(90deg, #a3a3a30f 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
 @media (max-width: 640px) {
   #main-content table {
     font-size: 0.875rem;
