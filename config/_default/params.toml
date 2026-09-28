@@ -15,7 +15,7 @@ enableSearch = true
 enableCodeCopy = true
 
 mainSections = ["blog"]
-defaultBackgroundImage = "img/site-background.webp"
+defaultBackgroundImage = "img/home-background.webp"
 imagePosition = "center center"
 thumbnailAspectRatio = "1.9048"
 # robots = ""
@@ -32,7 +32,7 @@ thumbnailAspectRatio = "1.9048"
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/site-background.webp" # used in: hero, card, and background
+  homepageImage = "img/home-background.webp" # used in: hero, card, and background
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
@@ -49,6 +49,7 @@ thumbnailAspectRatio = "1.9048"
   showAuthor = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background
+  layoutBackgroundHeaderSpace = false
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
