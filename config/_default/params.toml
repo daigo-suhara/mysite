@@ -18,6 +18,7 @@ mainSections = ["blog"]
 defaultBackgroundImage = "img/home-background.webp"
 imagePosition = "center center"
 thumbnailAspectRatio = "1.9048"
+disableImageZoom = true
 # robots = ""
 
 [header]
