@@ -21,6 +21,9 @@ thumbnailAspectRatio = "1.9048"
 disableImageZoom = true
 # robots = ""
 
+[author]
+  imagequality = 80
+
 [header]
   layout = "basic" # valid options: basic, fixed
 
