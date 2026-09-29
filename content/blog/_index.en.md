@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+description: "A blog about making things, books, ideas, and more."
 showDate: false
 showDateUpdated: false
 showHeadingAnchors: false

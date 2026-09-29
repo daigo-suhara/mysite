@@ -15,7 +15,7 @@ title = "pochizo"
 [params.author]
   name = "須原 大護"
   image = "img/gravatar.webp"
-  bio = "大学院生。Metal3.ioのメンテナー。"
+  bio = "大学院生。Metal3のメンテナー。"
   links = [
     { github = "https://github.com/daigo-suhara" },
     { x-twitter = "https://x.com/daigo_suhara" },

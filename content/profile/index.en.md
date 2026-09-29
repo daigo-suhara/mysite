@@ -1,5 +1,7 @@
 ---
-title: "Resume"
+title: "Daigo Suhara"
+description: "Robotics researcher at Kansai University and maintainer of the Metal3 open source project."
+aliases: ["/resume/"]
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -9,6 +11,8 @@ sharingLinks: false
 showTableOfContents: true
 layoutBackgroundHeaderSpace: false
 ---
+
+I conduct robotics research at Kansai University's Graduate School of Informatics. I am also a maintainer of [Metal3](https://metal3.io/), an open source project. My hobbies are photography and driving.
 
 ## Education
 

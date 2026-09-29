@@ -1,5 +1,5 @@
 {{ $isJapanese := eq site.Language.Lang "ja" }}
-{{ range $section := slice "blog" "work" "resume" "policy" }}
+{{ range $section := slice "blog" "work" "profile" "policy" }}
   {{ with site.GetPage $section }}
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ with .RegularPages.ByTitle }}

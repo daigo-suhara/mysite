@@ -11,7 +11,7 @@
   weight = 20
 
 [[main]]
-  name = "Resume"
-  pre = "graduation-cap"
-  pageRef = "resume"
+  name = "プロフィール"
+  pre = "circle-info"
+  pageRef = "profile"
   weight = 30

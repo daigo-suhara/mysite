@@ -16,7 +16,7 @@ title = "pochizo"
 [params.author]
   name = "Daigo Suhara"
   image = "img/gravatar.webp"
-  bio = "Graduate student. Maintainer of Metal3.io."
+  bio = "Graduate student. Maintainer of Metal3."
    links = [
      { github = "https://github.com/daigo-suhara" },
      { x-twitter = "https://x.com/daigo_suhara" },
