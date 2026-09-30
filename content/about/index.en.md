@@ -1,5 +1,5 @@
 ---
-title: "Daigo Suhara"
+title: "About"
 description: "Robotics researcher at Kansai University and maintainer of the Metal3 open source project."
 showDate: false
 showReadingTime: false
