@@ -1,7 +1,6 @@
 ---
 title: "Daigo Suhara"
 description: "Robotics researcher at Kansai University and maintainer of the Metal3 open source project."
-aliases: ["/resume/"]
 showDate: false
 showReadingTime: false
 showWordCount: false

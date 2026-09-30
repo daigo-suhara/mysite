@@ -11,7 +11,7 @@
   weight = 20
 
 [[main]]
-  name = "プロフィール"
+  name = "About"
   pre = "circle-info"
-  pageRef = "profile"
+  pageRef = "about"
   weight = 30

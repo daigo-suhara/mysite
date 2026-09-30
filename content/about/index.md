@@ -1,7 +1,6 @@
 ---
 title: "須原大護（Daigo Suhara）"
 description: "大学院でロボットの研究に取り組んでいます。また、Metal3というOSSのメンテナーとして活動しています。"
-aliases: ["/resume/"]
 showDate: false
 showReadingTime: false
 showWordCount: false
