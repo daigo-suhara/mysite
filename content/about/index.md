@@ -13,7 +13,7 @@ layoutBackgroundHeaderSpace: false
 
 大学院でロボットの研究に取り組んでいます。また、[Metal3](https://metal3.io/)というOSSのメンテナーとして活動しています。趣味はカメラとドライブです。
 
-## 学歴
+## 経歴
 
 | 期間 | 学校 |
 | --- | --- |

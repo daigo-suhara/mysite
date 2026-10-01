@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Robotics researcher at Kansai University and maintainer of the Metal3 open source project."
+description: "I conduct robotics research in graduate school and contribute as a maintainer of the Metal3 open source project."
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -11,9 +11,9 @@ showTableOfContents: true
 layoutBackgroundHeaderSpace: false
 ---
 
-I conduct robotics research at Kansai University's Graduate School of Informatics. I am also a maintainer of [Metal3](https://metal3.io/), an open source project. My hobbies are photography and driving.
+I conduct robotics research in graduate school. I also contribute as a maintainer of [Metal3](https://metal3.io/), an open source project. My hobbies are photography and driving.
 
-## Education
+## Career
 
 | Date | School |
 | --- | --- |
