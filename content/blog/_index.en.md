@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+featureimage: "img/blog-background-yuhi.webp"
 description: "A blog about making things, books, ideas, and more."
 showDate: false
 showDateUpdated: false
