@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <article class="mx-auto w-full max-w-7xl py-8 md:py-12">
+    <header class="mb-8 md:mb-10">
+      <p class="mb-2 text-xs font-semibold uppercase tracking-[0.24em] text-primary-500">Gallery</p>
+      <h1 class="mt-0 mb-3 text-4xl font-extrabold text-neutral-900 dark:text-neutral md:text-5xl">
+        {{ .Title | emojify }}
+      </h1>
+      <p class="m-0 text-base text-neutral-500 dark:text-neutral-400">{{ .Description }}</p>
+    </header>
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {{ range .Pages.ByTitle.Reverse }}
+        {{ $album := . }}
+        <a href="{{ $album.RelPermalink }}" class="group block rounded-xl">
+          {{ with $album.Resources.GetMatch $album.Params.featureimage }}
+            <img
+              src="{{ (.Resize `960x`).RelPermalink }}"
+              width="{{ .Width }}"
+              height="{{ .Height }}"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              class="w-full rounded-lg transition-opacity duration-300 group-hover:opacity-90">
+          {{ end }}
+          <div class="mt-3 flex items-baseline justify-between gap-4">
+            <h2 class="my-0 text-2xl font-bold text-neutral-900 dark:text-neutral">{{ $album.Title }}</h2>
+            <span class="text-sm text-neutral-500 dark:text-neutral-400">{{ if eq $.Language.Lang "ja" }}ギャラリーを見る →{{ else }}View gallery →{{ end }}</span>
+          </div>
+          <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">{{ $album.Description }}</p>
+        </a>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}

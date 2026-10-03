@@ -18,7 +18,7 @@ mainSections = ["blog"]
 defaultBackgroundImage = "img/home-background-20261003-v2.webp"
 imagePosition = "center center"
 thumbnailAspectRatio = "1.9048"
-disableImageZoom = true
+disableImageZoom = false
 # robots = ""
 
 [author]
@@ -54,7 +54,7 @@ disableImageZoom = true
   showHero = true
   heroStyle = "site-background"
   layoutBackgroundHeaderSpace = false
-  showBreadcrumbs = true
+  showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"

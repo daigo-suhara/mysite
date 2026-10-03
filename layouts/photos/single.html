@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <style>
+    .photo-gallery { columns: 2; column-gap: .25rem; }
+    .photo-gallery-item { break-inside: avoid; margin-bottom: .25rem; }
+    @media (min-width: 640px) { .photo-gallery { columns: 3; } }
+  </style>
+  <article>
+    <header id="single_header" class="mt-5 max-w-prose">
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title | emojify }}</h1>
+    </header>
+    <section class="mt-5 max-w-full">
+      <div class="photo-gallery mb-20 w-full">
+      {{ range .Resources.ByType "image" }}
+        {{ $image := . }}
+        {{ $thumbnail := .Resize "1200x" }}
+        <div class="photo-gallery-item overflow-hidden">
+          <img src="{{ $thumbnail.RelPermalink }}" data-zoom-src="{{ $image.RelPermalink }}" width="{{ $thumbnail.Width }}" height="{{ $thumbnail.Height }}" alt="" loading="lazy" decoding="async" class="m-0 block w-full transition-opacity duration-300 hover:opacity-90">
+        </div>
+      {{ end }}
+      </div>
+    </section>
+  </article>
+{{ end }}
