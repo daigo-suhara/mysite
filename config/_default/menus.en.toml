@@ -33,6 +33,7 @@
   name = "Gallery"
   identifier = "gallery"
   pre = "image"
+  pageRef = "photos/2026"
   weight = 25
 
 [[main]]
