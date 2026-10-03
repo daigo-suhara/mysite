@@ -15,7 +15,7 @@ enableSearch = true
 enableCodeCopy = true
 
 mainSections = ["blog"]
-defaultBackgroundImage = "img/home-background-20261003.webp"
+defaultBackgroundImage = "img/home-background-20261003-v2.webp"
 imagePosition = "center center"
 thumbnailAspectRatio = "1.9048"
 disableImageZoom = true
@@ -36,14 +36,14 @@ disableImageZoom = true
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/home-background-20261003.webp" # used in: hero, card, and background
+  homepageImage = "img/home-background-20261003-v2.webp" # used in: hero, card, and background
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = "/blog/"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true
+  layoutBackgroundBlur = false
 
 [article]
   showDate = true
