@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <!-- Replace {{BACKGROUND}}, {{TITLE_1}}, {{TITLE_2}}, {{FONT_SIZE}}, {{FIT}}, and {{IMAGE}}. -->
+  <!-- Replace {{BACKGROUND}}, {{TITLE_1}}, {{TITLE_2}}, {{FIT}}, and {{IMAGE}}. Keep titles short enough for two lines. -->
   <defs>
-    <clipPath id="image-frame"><rect x="835" y="100" width="330" height="430" rx="10"/></clipPath>
+    <clipPath id="image-frame"><rect x="850" y="165" width="300" height="300" rx="10"/></clipPath>
   </defs>
   <rect width="1200" height="630" fill="{{BACKGROUND}}"/>
-  <rect x="70" y="70" width="730" height="490" fill="#19272b"/>
-  <rect x="70" y="70" width="180" height="58" fill="#0ea5e9"/>
-  <g font-family="Hiragino Sans, Noto Sans JP, sans-serif" text-anchor="middle">
-    <text x="160" y="108" fill="#fff" font-size="24" font-weight="700">pochizo</text>
-    <text x="435" y="265" fill="#fff" font-size="{{FONT_SIZE}}" font-weight="700">{{TITLE_1}}</text>
-    <text x="435" y="380" fill="#fff" font-size="{{FONT_SIZE}}" font-weight="700">{{TITLE_2}}</text>
+  <rect x="50" y="50" width="750" height="530" fill="#19272b"/>
+  <rect x="50" y="50" width="180" height="58" fill="#0ea5e9"/>
+  <g font-family="LINE Seed JP App_TTF, sans-serif" text-anchor="middle">
+    <text x="140" y="88" fill="#fff" font-size="24" font-weight="700">pochizo</text>
+    <text x="425" y="278" fill="#fff" font-size="56" font-weight="700">{{TITLE_1}}</text>
+    <text x="425" y="365" fill="#fff" font-size="56" font-weight="700">{{TITLE_2}}</text>
   </g>
-  <image href="{{IMAGE}}" x="835" y="100" width="330" height="430" preserveAspectRatio="xMidYMid {{FIT}}" clip-path="url(#image-frame)"/>
+  <image href="{{IMAGE}}" x="850" y="165" width="300" height="300" preserveAspectRatio="xMidYMid {{FIT}}" clip-path="url(#image-frame)"/>
 </svg>
