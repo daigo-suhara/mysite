@@ -21,6 +21,8 @@ I guess spending so much time tinkering with machines makes me want to spend tim
 
 The seeds come inside a capsule, and there are four varieties in total.
 
+<img src="/blog/mame-bonsai/capsule-varieties.webp" alt="The four bonsai varieties available in the capsules" width="800" loading="lazy" decoding="async">
+
 I was hoping for a **Japanese black pine**, but didn't think I would get the one I wanted.
 
 And then I did! So happy!

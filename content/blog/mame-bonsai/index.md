@@ -21,6 +21,8 @@ draft: false
 
 商品はカプセルに入っていて全部で4種類でした
 
+<img src="capsule-varieties.webp" alt="カプセルに入っていた4種類の盆栽" width="800" loading="lazy" decoding="async">
+
 お目当ては**黒松**ですが当てられる気がしません．．
 
 と思ってたらでた！はっぴ〜

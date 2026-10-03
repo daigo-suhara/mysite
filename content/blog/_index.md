@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-featureimage: "img/blog-background-yuhi.webp"
+featureimage: "img/blog-background-sakura.webp"
 description: "ものづくり・書籍・思想などについて発信するブログです。"
 date: 2022-06-13T20:55:37+01:00
 draft: false
