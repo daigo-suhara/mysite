@@ -1,8 +1,27 @@
 [[main]]
   name = "Blog"
+  identifier = "blog"
   pre = "pencil"
   pageRef = "blog"
   weight = 10
+
+[[main]]
+  name = "記事"
+  pageRef = "blog"
+  parent = "blog"
+  weight = 11
+
+[[main]]
+  name = "カテゴリ"
+  pageRef = "categories"
+  parent = "blog"
+  weight = 12
+
+[[main]]
+  name = "タグ"
+  pageRef = "tags"
+  parent = "blog"
+  weight = 13
 
 [[main]]
   name = "Work"

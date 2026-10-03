@@ -3,7 +3,8 @@ title: "Escaping Environment Setup Hell: My Journey to Nix"
 summary: "A journey through apt, Homebrew, and Docker that led to Nix for reproducible development environments."
 date: 2026-04-10
 lastmod: 2026-04-10
-tags: ["環境構築", "dotfiles", "nix"]
+tags: ["インフラ"]
+categories: ["技術"]
 featureimage: "feature.en.webp"
 draft: false
 ---

@@ -3,7 +3,8 @@ title: "オールインワンなライブUSBの作り方"
 summary: "Ventoyを使い、複数のLinuxディストリビューションを1本のUSBから起動できる環境を構築する方法を紹介します。"
 date: 2024-05-13
 lastmod: 2024-05-13
-tags: ["Linux", "Ubuntu"]
+tags: ["インフラ"]
+categories: ["技術"]
 draft: false
 ---
 

@@ -3,7 +3,8 @@ title: "Building Your Own Public Cloud, Part 1"
 summary: "An introduction to building a public cloud on Kubernetes with bare-metal management, virtual machines, and related components."
 date: 2026-06-14
 lastmod: 2026-06-16
-tags: ["AWS", "Azure", "自宅サーバー", "GoogleCloud"]
+tags: ["インフラ"]
+categories: ["技術"]
 featureimage: "feature.en.webp"
 draft: false
 ---

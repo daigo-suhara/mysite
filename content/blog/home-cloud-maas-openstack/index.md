@@ -3,7 +3,8 @@ title: "ミニPC 3台とラズパイで始める！MAASとOpenstackで作る本�
 summary: "ミニPC 3台とRaspberry Piを使い、MAASによるOS展開からOpenStackの構築までを自動化する手順を紹介します。"
 date: 2025-06-29
 lastmod: 2025-06-29
-tags: ["Cloud", "RaspberryPi", "openstack", "サーバー", "MAAS"]
+tags: ["インフラ"]
+categories: ["技術"]
 draft: false
 ---
 

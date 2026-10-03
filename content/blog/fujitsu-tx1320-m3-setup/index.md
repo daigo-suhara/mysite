@@ -3,7 +3,8 @@ title: "TX1320 M3（富士通業務用サーバ）の設定でハマったこと
 summary: "Fujitsu TX1320 M3へのProxmox導入時にディスクが認識されない問題と、その解決方法を紹介します。"
 date: 2026-04-19
 lastmod: 2026-04-22
-tags: ["サーバー", "tx1320m3"]
+tags: ["インフラ"]
+categories: ["技術"]
 draft: false
 ---
 

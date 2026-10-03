@@ -3,7 +3,8 @@ title: "【 本番向け】terraformを使ってdifyをGCP上にセルフホス�
 summary: "Terraformを使い、DifyをGoogle Cloud上へ本番運用を想定した構成でセルフホストする方法を紹介します。"
 date: 2025-05-24
 lastmod: 2025-05-24
-tags: ["Terraform", "Dify"]
+tags: ["インフラ", "AI"]
+categories: ["技術"]
 draft: false
 ---
 

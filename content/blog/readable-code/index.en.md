@@ -3,7 +3,8 @@ title: "The Key Lessons from The Art of Readable Code"
 summary: "A collection of tips for writing readable code."
 date: 2026-09-27
 lastmod: 2026-09-27
-tags: ["book"]
+tags: ["プログラミング"]
+categories: ["本"]
 featureimage: "feature.en.webp"
 draft: false
 ---

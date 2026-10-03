@@ -3,7 +3,8 @@ title: "Setting Up a LaTeX Environment for Neovim"
 summary: "A guide to setting up Neovim for writing and compiling LaTeX documents."
 date: 2024-04-24
 lastmod: 2024-09-17
-tags: ["Vim", "LaTeX", "neovim"]
+tags: ["Neovim"]
+categories: ["技術"]
 featureimage: "feature.en.webp"
 draft: false
 ---

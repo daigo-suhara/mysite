@@ -3,7 +3,8 @@ title: "Issues I Encountered While Setting Up a Fujitsu TX1320 M3 Server"
 summary: "How to resolve a disk detection issue when installing Proxmox on a Fujitsu TX1320 M3 server."
 date: 2026-04-19
 lastmod: 2026-04-22
-tags: ["サーバー", "tx1320m3"]
+tags: ["インフラ"]
+categories: ["技術"]
 featureimage: "feature.en.webp"
 draft: false
 ---

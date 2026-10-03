@@ -1,8 +1,27 @@
 [[main]]
   name = "Blog"
+  identifier = "blog"
   pre = "pencil"
   pageRef = "blog"
   weight = 10
+
+[[main]]
+  name = "All Posts"
+  pageRef = "blog"
+  parent = "blog"
+  weight = 11
+
+[[main]]
+  name = "Categories"
+  pageRef = "categories"
+  parent = "blog"
+  weight = 12
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  parent = "blog"
+  weight = 13
 
 [[main]]
   name = "Work"

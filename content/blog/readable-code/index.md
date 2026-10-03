@@ -3,7 +3,8 @@ title: "『リーダブルコード』の要点まとめ"
 summary: "読みやすいコードを書くためのTipsをまとめています"
 date: 2026-09-27
 lastmod: 2026-09-27
-tags: ["book"]
+tags: ["プログラミング"]
+categories: ["本"]
 draft: false
 ---
 

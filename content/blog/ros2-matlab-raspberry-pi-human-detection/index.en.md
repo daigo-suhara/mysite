@@ -3,7 +3,8 @@ title: "Human Detection with a Raspberry Pi Camera, ROS 2, and MATLAB/Simulink"
 summary: "Stream Raspberry Pi camera data through ROS 2 and detect people with MATLAB and Simulink."
 date: 2025-09-12
 lastmod: 2025-09-13
-tags: ["MATLAB", "RaspberryPi", "ROS2", "Simulink"]
+tags: ["ロボティクス"]
+categories: ["技術"]
 featureimage: "feature.en.webp"
 draft: false
 ---

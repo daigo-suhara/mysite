@@ -3,7 +3,8 @@ title: "Fixing Missing Header Files When Building Neovim on macOS"
 summary: "How to fix the missing CoreServices header error encountered when building Neovim on macOS."
 date: 2026-03-14
 lastmod: 2026-03-14
-tags: ["neovim"]
+tags: ["Neovim"]
+categories: ["技術"]
 featureimage: "feature.en.webp"
 draft: false
 ---

@@ -3,7 +3,8 @@ title: "思考のスピードで飛び回れるNvimプラグインhop.nvimの紹
 summary: "画面内の任意の位置へ素早く移動できるNeovimプラグイン、hop.nvimの使い方を紹介します。"
 date: 2024-04-29
 lastmod: 2024-04-29
-tags: ["Vim", "neovim"]
+tags: ["Neovim"]
+categories: ["技術"]
 draft: false
 ---
 
