@@ -13,7 +13,7 @@ draft: false
 
 I came across this little growing kit while I was out and bought it on impulse.
 
-<a href="https://link.amazon/B08YNS2Uv"><img src="product.webp" alt="Seishin Pottery Mini Bonsai Growing Capsule" width="240" loading="lazy"></a>
+<a href="https://link.amazon/B08YNS2Uv"><img src="/blog/mame-bonsai/product.webp" alt="Seishin Pottery Mini Bonsai Growing Capsule" width="240" loading="lazy"></a>
 
 I guess spending so much time tinkering with machines makes me want to spend time with something alive from nature.
 
@@ -25,7 +25,7 @@ I was hoping for a **Japanese black pine**, but didn't think I would get the one
 
 And then I did! So happy!
 
-<img src="tane.webp" alt="The capsule with Japanese black pine seeds" width="320" loading="lazy">
+<img src="/blog/mame-bonsai/tane.webp" alt="The capsule with Japanese black pine seeds" width="320" loading="lazy">
 
 ## Planting the Seeds
 
@@ -37,7 +37,7 @@ About ten days later, I woke up to a new little life sprouting. So cute!
 
 When I got home that evening, another one had popped up beside it!
 
-<img src="hatuga.webp" alt="Japanese black pine seedlings sprouting" width="320" loading="lazy">
+<img src="/blog/mame-bonsai/hatuga.webp" alt="Japanese black pine seedlings sprouting" width="320" loading="lazy">
 
 ## Conclusion
 
