@@ -35,3 +35,6 @@ I review changes and dependencies, prepare release notes, check test results, up
 - [CAPM3 v1.13.5 release](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3760)
 - [IPAM v1.13.6 release](https://github.com/metal3-io/ip-address-manager/pull/1642)
 - [IPAM v1.14.1 release](https://github.com/metal3-io/ip-address-manager/pull/1639)
+- [BMO v0.14.2 release](https://github.com/metal3-io/baremetal-operator/pull/3726)
+- [Bump Go to 1.26.9, osv-scanner to v2.6.0 and go group dependencies](https://github.com/metal3-io/baremetal-operator/pull/3723)
+- [BMO v0.13.6 release](https://github.com/metal3-io/baremetal-operator/pull/3722)
