@@ -38,3 +38,5 @@ Metal3.io自体もKubernetes上で動作し、KubernetesのリソースとAPIを
 - [BMO v0.14.2 release](https://github.com/metal3-io/baremetal-operator/pull/3726)
 - [Bump Go to 1.26.9, osv-scanner to v2.6.0 and go group dependencies](https://github.com/metal3-io/baremetal-operator/pull/3723)
 - [BMO v0.13.6 release](https://github.com/metal3-io/baremetal-operator/pull/3722)
+- [CAPM3 v1.14.2 release](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3840)
+- [Bump BMO to v0.14.2, IPAM to v1.14.2, Go to 1.26.9, osv-scanner to v2.6.0 and Go dependencies](https://github.com/metal3-io/cluster-api-provider-metal3/pull/3838)
