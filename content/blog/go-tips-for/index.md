@@ -6,7 +6,7 @@ lastmod: 2026-10-26
 tags: ["Go", "Tips"]
 categories: ["技術"]
 series: ["Go Tips"]
-draft: true
+draft: false
 ---
 
 Goで「これどう書くんやっけ」となった時に見返すためのTips集．まずは `for` の書き方から．
