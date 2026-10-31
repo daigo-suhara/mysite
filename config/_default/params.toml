@@ -25,7 +25,7 @@ disableImageZoom = false
   imagequality = 80
 
 [header]
-  layout = "basic" # valid options: basic, fixed
+  layout = "fixed" # valid options: basic, fixed, floating
 
 [footer]
   showMenu = true
