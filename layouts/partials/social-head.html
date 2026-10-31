@@ -1,24 +1,18 @@
-{{/* Keep the theme's metadata; add a generated card only when no image is set. */}}
+{{/* Keep the theme's metadata; explicit social images override generated blog cards. */}}
 {{ $page := .page }}
 {{ $head := .head }}
-{{ if and $page.IsPage (eq $page.Section "blog") (not $page.Params.images) (not $page.Params.featureimage) }}
-  {{ $existing := false }}
-  {{ range slice "*feature*" "*cover*" "*thumbnail*" }}
-    {{ if $page.Resources.GetMatch . }}{{ $existing = true }}{{ end }}
-  {{ end }}
-  {{ if not $existing }}
-    {{ $image := partial "og-image.html" $page }}
-    {{ $head = replaceRE `<meta[^>]+(property="og:image[^"]*"|name="twitter:(image[^"]*|card)")[^>]*>` "" $head }}
-    {{ $tags := printf `<meta property="og:image" content="%s">
-      <meta property="og:image:width" content="%d">
-      <meta property="og:image:height" content="%d">
-      <meta property="og:image:alt" content="%s">
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:image" content="%s">
-      <meta name="twitter:image:alt" content="%s">`
-      $image.Permalink $image.Width $image.Height
-      ($page.Title | plainify | htmlEscape) $image.Permalink ($page.Title | plainify | htmlEscape) }}
-    {{ $head = replace $head "</head>" (printf "%s</head>" $tags) }}
-  {{ end }}
+{{ if and $page.IsPage (eq $page.Section "blog") (not $page.Params.images) }}
+  {{ $image := partial "og-image.html" $page }}
+  {{ $head = replaceRE `<meta[^>]+(property="og:image[^"]*"|name="twitter:(image[^"]*|card)")[^>]*>` "" $head }}
+  {{ $tags := printf `<meta property="og:image" content="%s">
+    <meta property="og:image:width" content="%d">
+    <meta property="og:image:height" content="%d">
+    <meta property="og:image:alt" content="%s">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="%s">
+    <meta name="twitter:image:alt" content="%s">`
+    $image.Permalink $image.Width $image.Height
+    ($page.Title | plainify | htmlEscape) $image.Permalink ($page.Title | plainify | htmlEscape) }}
+  {{ $head = replace $head "</head>" (printf "%s</head>" $tags) }}
 {{ end }}
 {{ return ($head | safeHTML) }}
