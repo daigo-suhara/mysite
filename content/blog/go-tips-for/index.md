@@ -1,6 +1,6 @@
 ---
-title: "Go Tips: forの書き方集"
-summary: "回数指定，while風のループ，range，逆順，break / continueなど，Goのforを用途別にまとめます．"
+title: "Go言語: for文の書き方集"
+summary: "Goのforを用途別にまとめます．"
 date: 2026-10-26
 lastmod: 2026-10-26
 tags: ["Go", "Tips"]
@@ -9,23 +9,7 @@ series: ["Go Tips"]
 draft: false
 ---
 
-Goで「これどう書くんやっけ」となった時に見返すためのTips集．まずは `for` の書き方から．
-
-## 早見表
-
-| やりたいこと | 書き方 |
-| --- | --- |
-| カウンタを増やす | `for i := 0; i < n; i++ { ... }` |
-| n回繰り返す（Go 1.22以降） | `for range n { ... }` |
-| 0からn−1を使う（Go 1.22以降） | `for i := range n { ... }` |
-| 条件を満たす間繰り返す | `for 条件 { ... }` |
-| 無限ループ | `for { ... }` |
-| スライスの添字と値を使う | `for i, v := range items { ... }` |
-| スライスの値だけ使う | `for _, v := range items { ... }` |
-| スライスの添字だけ使う | `for i := range items { ... }` |
-| 逆順に処理する | `for i := len(items) - 1; i >= 0; i-- { ... }` |
-
-以下のコードは，特記がなければ `main` 関数内に書く想定．`fmt` を使う例では `import "fmt"` が必要です．
+Goで「これどう書くんやっけ」となった時に見返すためのTips．
 
 ## 基本形：初期化・条件・更新
 
@@ -48,8 +32,6 @@ for i := range 3 {
 	fmt.Println(i) // 0, 1, 2
 }
 ```
-
-整数への `range` はGo 1.22で追加されました．`n` 回繰り返し，添字は `0` から `n-1`．`n` が0以下なら一度も実行しません．利用するモジュールの `go.mod` でも `go 1.22` 以降を指定します．[Go 1.22リリースノート](https://go.dev/doc/go1.22)
 
 ## while風：条件だけ書く
 
@@ -213,9 +195,8 @@ Outer:
 
 `break Outer` でラベルの付いた外側のループを終了できます．`continue Outer` なら外側のループの次の反復に進みます．
 
-## イテレータを回す（Go 1.23以降）
+## イテレータを回す
 
-Go 1.23以降はイテレータ関数にも `range` を使えます．例えば，標準ライブラリの `slices.Backward` で逆順に走査できます．[公式ブログの解説](https://go.dev/blog/range-functions)
 
 ```go
 package main
@@ -233,8 +214,3 @@ func main() {
 }
 ```
 
-## ループ変数とGoのバージョン
-
-Go 1.22以降の言語仕様では，`:=` でループ内に宣言した変数は反復ごとに新しく作られます．古い記事にある，クロージャのための `v := v` という退避は，この条件では不要です．ただし，外で宣言した変数へ `=` で代入する場合は同じ変数を使い回します．[Go 1.22リリースノート](https://go.dev/doc/go1.22)
-
-基本構文と `range` の詳しい仕様は，[Go言語仕様のFor statements](https://go.dev/ref/spec#For_statements)を参照．
