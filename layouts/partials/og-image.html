@@ -1,42 +1,30 @@
-{{/* Conservative character widths keep Japanese and Latin titles inside the card. */}}
+{{/* Balance line lengths without splitting Latin words into individual letters. */}}
 {{ $title := .Title | plainify | htmlUnescape }}
 {{ $size := 52 }}
 {{ if gt (strings.RuneCount $title) 45 }}{{ $size = 40 }}{{ end }}
+{{ $tokens := strings.FindRE `[A-Za-z0-9._]{1,16}[ ]*|(?s:.)` $title }}
 {{ $lines := slice }}
-{{ $line := "" }}
-{{ $width := 0 }}
-{{ $totalWidth := 0 }}
-{{ range strings.FindRE `(?s).` $title }}
-  {{ $unit := $size }}
-  {{ if findRE `^[\x00-\x7F]$` . }}{{ $unit = mul $size 0.65 }}{{ end }}
-  {{ $totalWidth = add $totalWidth $unit }}
-{{ end }}
-{{ $lineCount := math.Ceil (div (float $totalWidth) 960.0) | int }}
-{{ $limit := 960.0 }}
-{{ if gt $lineCount 1 }}
-  {{ $limit = math.Min 960 (add (div (float $totalWidth) $lineCount) (div $size 2)) }}
-{{ end }}
-{{ range strings.FindRE `[A-Za-z0-9]{1,16}[ ]*|(?s:.)` $title }}
-  {{ $charWidth := mul (strings.RuneCount .) $size }}
-  {{ if findRE `^[\x00-\x7F]+$` . }}{{ $charWidth = mul $charWidth 0.65 }}{{ end }}
-  {{ if and $line (gt (add $width $charWidth) $limit) }}
-    {{ $lines = $lines | append $line }}
-    {{ $line = "" }}
-    {{ $width = 0 }}
+{{ $lineCount := 0 }}
+{{ range seq 0 40 }}
+  {{ $limit := sub 960 (mul . 16) }}
+  {{ $candidate := slice }}
+  {{ $line := "" }}
+  {{ $width := 0 }}
+  {{ range $tokens }}
+    {{ $tokenWidth := mul (strings.RuneCount .) $size }}
+    {{ if findRE `^[\x00-\x7F]+$` . }}{{ $tokenWidth = mul $tokenWidth 0.65 }}{{ end }}
+    {{ if and $line (gt (add $width $tokenWidth) $limit) }}
+      {{ $candidate = $candidate | append (strings.TrimSpace $line) }}
+      {{ $line = "" }}
+      {{ $width = 0 }}
+    {{ end }}
+    {{ $line = printf "%s%s" $line . }}
+    {{ $width = add $width $tokenWidth }}
   {{ end }}
-  {{ $line = printf "%s%s" $line . }}
-  {{ $width = add $width $charWidth }}
-{{ end }}
-{{ with $line }}{{ $lines = $lines | append . }}{{ end }}
-{{/* Avoid a stranded Japanese suffix on the last line. */}}
-{{ if gt (len $lines) 1 }}
-  {{ $lastIndex := sub (len $lines) 1 }}
-  {{ $last := index $lines $lastIndex }}
-  {{ $previous := index $lines (sub $lastIndex 1) }}
-  {{ if and (le (strings.RuneCount $last) 3) (findRE `[\p{Han}\p{Hiragana}\p{Katakana}]{6}$` $previous) }}
-    {{ $tail := index (findRE `.{6}$` $previous) 0 }}
-    {{ $lines = (first (sub $lastIndex 1) $lines) | append (replaceRE `.{6}$` "" $previous) | append (printf "%s%s" $tail $last) }}
-  {{ end }}
+  {{ with $line }}{{ $candidate = $candidate | append (strings.TrimSpace .) }}{{ end }}
+  {{ if eq . 0 }}{{ $lineCount = len $candidate }}{{ end }}
+  {{ if gt (len $candidate) $lineCount }}{{ break }}{{ end }}
+  {{ $lines = $candidate }}
 {{ end }}
 {{ if gt (len $lines) 5 }}
   {{ $lines = first 5 $lines }}

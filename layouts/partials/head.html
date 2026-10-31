@@ -1,6 +1,6 @@
 {{/* Keep the theme's metadata; explicit social images override generated blog cards. */}}
-{{ $page := .page }}
-{{ $head := .head }}
+{{ $page := . }}
+{{ $head := partial "blowfish/head.html" . }}
 {{ if and $page.IsPage (eq $page.Section "blog") (not $page.Params.images) }}
   {{ $image := partial "og-image.html" $page }}
   {{ $head = replaceRE `<meta[^>]+(property="og:image[^"]*"|name="twitter:(image[^"]*|card)")[^>]*>` "" $head }}
@@ -15,4 +15,4 @@
     ($page.Title | plainify | htmlEscape) $image.Permalink ($page.Title | plainify | htmlEscape) }}
   {{ $head = replace $head "</head>" (printf "%s</head>" $tags) }}
 {{ end }}
-{{ return ($head | safeHTML) }}
+{{ $head | safeHTML }}

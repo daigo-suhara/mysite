@@ -5,7 +5,6 @@ date: 2024-04-24
 lastmod: 2024-09-17
 tags: ["Neovim"]
 categories: ["技術"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 

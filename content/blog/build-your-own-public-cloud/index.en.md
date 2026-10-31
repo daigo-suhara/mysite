@@ -5,7 +5,6 @@ date: 2026-06-14
 lastmod: 2026-06-16
 tags: ["インフラ"]
 categories: ["技術"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 

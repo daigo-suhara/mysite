@@ -1,3 +1,11 @@
 [hugoVersion]
   extended = true
   min = "0.158.0"
+
+# Reuse original theme partials without copying their HTML.
+[[mounts]]
+  source = "layouts"
+  target = "layouts"
+[[mounts]]
+  source = "themes/blowfish/layouts/partials"
+  target = "layouts/partials/blowfish"

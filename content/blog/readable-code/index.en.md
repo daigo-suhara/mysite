@@ -5,7 +5,6 @@ date: 2026-09-27
 lastmod: 2026-09-27
 tags: ["プログラミング"]
 categories: ["本"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 

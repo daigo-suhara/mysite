@@ -5,7 +5,6 @@ date: 2025-05-24
 lastmod: 2025-05-24
 tags: ["インフラ", "AI"]
 categories: ["技術"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 

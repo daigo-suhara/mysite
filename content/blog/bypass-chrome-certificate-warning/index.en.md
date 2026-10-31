@@ -5,7 +5,6 @@ date: 2025-06-25
 lastmod: 2025-06-25
 tags: ["セキュリティ"]
 categories: ["技術"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 

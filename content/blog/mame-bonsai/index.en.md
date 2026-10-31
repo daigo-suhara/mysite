@@ -5,7 +5,6 @@ date: 2026-10-03T13:54:45+09:00
 lastmod: 2026-10-03T13:54:45+09:00
 tags: [盆栽]
 categories: ["その他"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 

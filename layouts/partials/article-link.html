@@ -1,0 +1,15 @@
+{{/* Reuse Blowfish's card HTML, replacing only blog thumbnails. */}}
+{{ $page := .page }}
+{{ $html := partial (printf "blowfish/article-link/%s.html" .style) $page }}
+{{ if and (eq $page.Section "blog") (not $page.Params.hideFeatureImage) }}
+  {{ $image := (partial "og-image.html" $page).Resize "600x" }}
+  {{ $class := "thumbnail_card" }}
+  {{ if eq .style "simple" }}{{ $class = "thumbnail" }}{{ end }}
+  {{ if eq .style "card-related" }}{{ $class = "thumbnail_card_related" }}{{ end }}
+  {{ $thumbnail := printf `<div class="flex-none relative overflow-hidden %s" style="--thumbnail-aspect-ratio: 1.9048">
+    <img src="%s" role="presentation" loading="lazy" decoding="async" class="not-prose absolute inset-0 w-full h-full object-cover">
+    </div>` $class $image.RelPermalink }}
+  {{ $html = replaceRE `(?s)<div[^>]*class="[^"]*\bthumbnail(?:_card(?:_related)?)?\b[^"]*"[^>]*>.*?</div>` "" $html }}
+  {{ $html = replaceRE `<article\b[^>]*>` (printf "${0}%s" $thumbnail) $html }}
+{{ end }}
+{{ $html | safeHTML }}

@@ -5,7 +5,6 @@ date: 2025-09-12
 lastmod: 2025-09-13
 tags: ["ロボティクス"]
 categories: ["技術"]
-featureimage: "feature.en.webp"
 draft: false
 ---
 
