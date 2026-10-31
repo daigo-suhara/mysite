@@ -1,0 +1,16 @@
+{{/* Register generated cards as page resources for Blowfish's standard templates. */}}
+{{ .EnableAllLanguages }}
+{{ $adapter := . }}
+{{ range os.ReadDir "content/blog" }}
+  {{ if .IsDir }}
+    {{ $filename := "index.md" }}
+    {{ if ne $adapter.Site.Language.Lang "ja" }}{{ $filename = printf "index.%s.md" $adapter.Site.Language.Lang }}{{ end }}
+    {{ $path := printf "content/blog/%s/%s" .Name $filename }}
+    {{ if os.FileExists $path }}
+      {{ $frontmatter := index (findRE `(?s)^---\r?\n.*?\r?\n---` (os.ReadFile $path)) 0 }}
+      {{ $meta := replaceRE `(?s)^---\r?\n(.*?)\r?\n---$` "${1}" $frontmatter | transform.Unmarshal }}
+      {{ $image := partial "og-image.html" (dict "Title" $meta.title "Site" $adapter.Site) }}
+      {{ $adapter.AddResource (dict "path" (printf "%s/featured.png" .Name) "content" (dict "mediaType" "image/png" "value" $image)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
