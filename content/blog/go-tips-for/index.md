@@ -2,7 +2,7 @@
 title: "Go言語: for文の書き方集"
 summary: Goのforを用途別にまとめます．
 date: 2026-10-26
-lastmod: 2026-11-1
+lastmod: 2026-11-01
 tags:
     - Go
 categories:
